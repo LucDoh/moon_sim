@@ -3,8 +3,7 @@ Simulates the formation of the moon based on the Giant Impact Hypothesis. This w
 While a few of the classes were worked on collaboratively (main.py, rock.py), I worked solely with Aramis Marden on the class AraLuc_Trynewthings.py. This (poorly named) class deals with the collisions between asteroids/debris, resolving these collisions inelastically, and ensuring that momentum and mass was conserved. We used scipy spatial's KDTree to quickly determine rocks that were close enough to collide. - Luc d'Hauthuille
 
 
-
-Below I've included Benjamin Stahl's description.
+Benjamin Stahl's description:
 --------------------------------------------------------------------------------------------------
 
 "This repository holds the final result of a group project I worked on with Jarred Gillette, Monique Windju, Cesar Gonzalez Renteria, Luc D'Hauthuille, and Aramis Marden at UCSC for a scientific computing class.
