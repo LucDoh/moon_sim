@@ -2,7 +2,7 @@ Simulates the formation of the moon based on the Giant Impact Hypothesis. This w
 
 Several of the classes were done collaboratively. I worked with Aramis Marden on developing a collision handling class for asteroids/debris. It resolved these collisions inelastically, with momentum and mass conserved. We used scipy spatial's KDTree to greatly improve the speed at which we found which rocks that were colliding at a timestep. 
 
-- Luc d'Hauthuille
+-Luc d'Hauthuille
  
 
 
