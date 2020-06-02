@@ -1,6 +1,9 @@
-Simulates the formation of the moon based on the Giant Impact Hypothesis. This was the final group project I worked on for UC Santa Cruz's Astro 119: Intro to Scientiic Computing class [https://sites.google.com/a/ucsc.edu/krumholz/teaching-and-courses/ast119_w15].
+Simulates the formation of the moon based on the Giant Impact Hypothesis. This was the final group project I worked on for UC Santa Cruz's Astro 119: Intro to Scientiic Computing class [https://sites.google.com/a/ucsc.edu/krumholz/teaching-and-courses/ast119_w15] in 2015.
 
-While a few of the classes were worked on collaboratively (main.py, rock.py), I worked solely with Aramis Marden on the class AraLuc_Trynewthings.py. This (poorly named) class deals with the collisions between asteroids/debris, resolving these collisions inelastically, and ensuring that momentum and mass was conserved. We used scipy spatial's KDTree to quickly determine rocks that were close enough to collide. - Luc d'Hauthuille
+Several of the classes were done collaboratively. I worked with Aramis Marden on developing a collision handling class for asteroids/debris. It resolved these collisions inelastically, with momentum and mass conserved. We used scipy spatial's KDTree to greatly improve the speed at which we found which rocks that were colliding at a timestep. 
+
+- Luc d'Hauthuille
+ 
 
 
 Benjamin Stahl's description:
