@@ -1,4 +1,4 @@
-Simulates the formation of the moon based on the Giant Impact Hypothesis. This was the final group project I worked on for UC Santa Cruz's Astro 119: Intro to Scientiic Computing class [https://sites.google.com/a/ucsc.edu/krumholz/teaching-and-courses/ast119_w15] in 2015.
+Simulates the formation of the moon based on the Giant Impact Hypothesis. This was the final group project I worked on for [Astro 119: Intro to Scientiic Computing)](https://sites.google.com/a/ucsc.edu/krumholz/teaching-and-courses/ast119_w15), at UC Santa Cruz in 2015.
 
 Several of the classes were done collaboratively. I worked with Aramis Marden on developing a collision handling class for asteroids/debris. It resolved these collisions inelastically, with momentum and mass conserved. We used scipy spatial's KDTree to greatly improve the speed at which we found which rocks that were colliding at a timestep. 
 
